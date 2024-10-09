@@ -131,41 +131,4 @@ p{
 
 
 
-/******************************responsiv********************************/
 
-
-
-
-/* Styles par défaut (pour les ordinateurs de bureau) */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Styles pour les appareils de moins de 768px (iPhone et autres mobiles) */
-@media only screen and (max-width: 768px) {
-    body {
-        
-        font-size: 16px; /* Ajuste la taille de police */
-    }
-
-    .container {
-        padding: 10px; /* Réduire le padding sur mobile */
-    }
-
-    h1 {
-        font-size: 24px; /* Ajuster la taille des titres */
-    }
-
-    p {
-        line-height: 1.5; /* Améliorer la lisibilité */
-    }
-}
-
-/* Styles pour les iPhones en portrait */
-@media only screen and (max-width: 375px) {
-    h1 {
-        font-size: 20px; /* Taille encore plus petite pour les petits écrans */
-    }
-}
