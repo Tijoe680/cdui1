@@ -1,0 +1,52 @@
+
+nav{
+    background-color: black;
+    border-color: cornflowerblue;
+    border-width: 3px;
+    border-style: solid;
+    margin: 20px;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}  
+
+nav a{ 
+    
+    color: blue;
+    text-decoration: none;
+}  
+
+
+h1{
+    
+    /*  color: rgb(0, 255, 98);
+    background-color: black; */
+    text-align: center;
+    font-family:cursive;
+}
+img {
+    width: 100%;
+}
+button{
+    border-color: brown;
+    background-color: rgb(16, 136, 96);
+    align-content: center;
+}
+a{
+    color: aliceblue;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#cle{
+    color: aqua;
+    font-size: x-large;
+}
+.red{
+    color: rgb(255, 0, 0);
+}
+.green{
+    color: rgb(0, 150, 25);
+}
