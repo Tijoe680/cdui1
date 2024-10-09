@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(64, 57, 57);
+}
+
+header{
+    height: 30vh;  /*    vh = viewport height ou % de hauteur de la fenetre  */
+}
+
+nav{
+    background-color: black;
+    border-color: cornflowerblue;
+    border-width: 3px;
+    border-style: solid;
+    margin: 20px;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;   
+}  
+
+nav a{ 
+    
+    color: rgb(200, 200, 206);
+    text-decoration: none;
+} 
+
+nav a:hover {
+    color: rgb(255, 255, 255); /* Couleur du texte au survol */
+}
+
+nav a:hover::after {
+    transform: translateX(-50%) scaleX(1); /* Scintillement */
+} 
+
+h1{
+    /*  color: rgb(0, 255, 98);
+    background-color: black; */
+    text-align: center;
+    font-family:cursive;
+    margin-top: 16%;
+}
+
+img {
+    width: 100%;
+}
+
+button{
+    border-color: brown;
+    background-color: rgb(16, 136, 96);
+    align-content: center;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    color: aliceblue;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#cle{
+    color: aqua;
+    font-size: x-large;
+}
+
+.red{
+    color: rgb(255, 0, 0);
+}
+
+.green{
+    color: rgb(0, 150, 25);
+}
+
+.parallax {
+    background-image: url('image/QTIT2546.JPG');
+    height: 500px; /* Ajuste cette valeur selon tes besoins */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; /* Pour le positionnement absolu du texte */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Couleur du texte */
+    text-align: center;
+  
+}
+
+.pic{
+    text-align: center;
+    font-size: 67px;
+}
+.parallax2 {
+    background-image: url('image/YDUG7329.JPEG');
+    height: 500px; /* Ajuste cette valeur selon tes besoins */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; /* Pour le positionnement absolu du texte */
+}
+
+.text-overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Couleur du texte */
+    text-align: center;
+  
+}
+
