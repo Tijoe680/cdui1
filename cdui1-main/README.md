@@ -1,5 +1,10 @@
 # cdui1
 
+.HTML
+.CSS
+.HOOVER
+.PARALLAXE
+
 ![Capture d’écran 2024-10-10 à 08 06 42](https://github.com/user-attachments/assets/03b3d0ac-c3ee-4a0a-8b57-34b29105810c)
 
 
